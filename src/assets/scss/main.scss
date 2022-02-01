@@ -1,0 +1,31 @@
+$font-color :(
+        'white': #fff,
+        'black' : #140a00,
+        'blue' : #045fd4,
+        'red' : #ff0000,
+        'darkGrey' : #909090,
+        'lightGrey': #e0e0e0,
+);
+
+$font-size:(
+        'micro' : 10px,
+        'small' : 12px,
+        'medium' : 14px,
+        'regular' : 16px,
+        'large' : 18px,
+        'xlarge' : 20px,
+);
+
+$font-space:(
+        'spacing' : 12px,
+);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: SansSerif;
+}
