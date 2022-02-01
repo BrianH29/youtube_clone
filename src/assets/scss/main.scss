@@ -1,10 +1,11 @@
 $font-color :(
         'white': #fff,
-        'black' : #140a00,
+        'black' : #202020,
         'blue' : #045fd4,
         'red' : #ff0000,
         'darkGrey' : #909090,
         'lightGrey': #e0e0e0,
+        'hashBlue':#3ca0f4
 );
 
 $font-size:(
@@ -28,4 +29,10 @@ $font-space:(
 
 body{
   font-family: SansSerif;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
