@@ -12,6 +12,7 @@ export default {};
 .video_player {
   position: sticky;
   top: 0;
+  background: map-get($font-color, 'black');
 
   video {
     width: 100%;
