@@ -8,6 +8,7 @@
     <BorderGradient></BorderGradient>
     <UserInfo></UserInfo>
     <BorderGradient></BorderGradient>
+    <ThumbNailView></ThumbNailView>
   </div>
 </template>
 
@@ -19,8 +20,10 @@ import VideoTitle from '@/components/VideoTitle';
 import ClipViewsLike from '@/views/ClipViewsLike';
 import BorderGradient from '@/components/BorderGradient';
 import UserInfo from '@/components/UserInfo';
+import ThumbNailView from '@/components/ThumbNailView';
 export default {
   components: {
+    ThumbNailView,
     UserInfo,
     BorderGradient,
     ClipViewsLike,
