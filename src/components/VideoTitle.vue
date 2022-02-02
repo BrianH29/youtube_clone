@@ -1,5 +1,5 @@
 <template>
-  <section class="video__title">
+  <div class="video__title">
     <span>
       Golden State Warriors vs Houston Rockets Full Game Highlights | 2021-22
       NBA Season
@@ -7,7 +7,7 @@
     <button>
       <i class="fas fa-caret-down"></i>
     </button>
-  </section>
+  </div>
 </template>
 
 <script>
