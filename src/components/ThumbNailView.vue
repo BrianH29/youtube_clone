@@ -1,5 +1,6 @@
 <template>
-  <section>
+  <div class="nextClip">
+    <span class="section_title">다음 동영상</span>
     <div v-for="(item, idx) in dataList" :key="idx" class="thumbnail">
       <div class="thumbnail__img">
         <img :src="item.imgUrl" alt="" />
@@ -10,7 +11,7 @@
         <span>{{ item.viewCount }}</span>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -53,12 +54,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.section_title {
+  padding: map-get($font-space, 'spacing');
+  color: map-get($font-color, 'white');
+  font-size: map-get($font-size, 'small');
+}
 .thumbnail {
   display: flex;
   padding: map-get($font-space, 'spacing');
 
   #{&}__img {
-    width: 35%;
+    flex: 1 1 35%;
     margin-right: 10px;
     img {
       width: 100%;
@@ -69,7 +75,7 @@ export default {
   #{&}__info {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    flex: 1 1 60%;
     color: map-get($font-color, 'white');
   }
 }

@@ -1,7 +1,7 @@
 <template>
-  <section class="video_player">
+  <div class="video_player">
     <video controls src="@/assets/video/testsVideo.mp4"></video>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -12,9 +12,14 @@ export default {};
 .video_player {
   position: sticky;
   top: 0;
+  background: black;
+  text-align: center;
 
   video {
     width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 1000px;
   }
 }
 </style>
