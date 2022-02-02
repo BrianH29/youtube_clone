@@ -29,6 +29,7 @@ $font-space:(
 
 body{
   font-family: SansSerif;
+  background: map-get($font-color, 'black');
 }
 
 button{

@@ -14,7 +14,6 @@ export default {};
 
 <style lang="scss" scoped>
 .hashtag {
-  background: map-get($font-color, 'black');
   padding: 12px 12px 0;
 
   ul {

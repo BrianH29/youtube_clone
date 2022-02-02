@@ -19,7 +19,6 @@ export default {};
 header {
   display: flex;
   justify-content: space-between;
-  background-color: map-get($font-color, 'black');
   color: map-get($font-color, 'white');
   padding: 12px;
 

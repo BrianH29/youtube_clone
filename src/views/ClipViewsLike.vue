@@ -20,7 +20,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: map-get($font-space, 'spacing');
-  background: map-get($font-color, 'black');
 
   #{&}__viewCount {
     margin-right: map-get($font-space, 'spacing');

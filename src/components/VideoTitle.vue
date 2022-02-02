@@ -17,7 +17,6 @@ export default {};
 <style lang="scss" scoped>
 .video__title {
   display: flex;
-  background: map-get($font-color, 'black');
   padding: 0 12px;
 
   span {
