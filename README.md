@@ -25,9 +25,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # youtube_clone
 
 ## mobile screen
-![small](https://https://github.com/BrianH29/youtube_clone/tree/main/src/assets/img/mobile.png)
+![small](https://https://github.com/BrianH29/youtube_clone/tree/js_inject/src/assets/img/mobile.png)
 
 ## wide screen
-![wide](![small](https://https://github.com/BrianH29/youtube_clone/tree/main/src/assets/img/widePage.png)
+![wide](![small](https://https://github.com/BrianH29/youtube_clone/tree/js_inject/src/assets/img/widePage.png)
 )
 
