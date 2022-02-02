@@ -42,4 +42,10 @@ export default {};
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .actionBtn__icon span {
+    display: none;
+  }
+}
 </style>

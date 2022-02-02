@@ -1,11 +1,11 @@
 <template>
-  <section class="hashtag">
+  <div class="hashtag">
     <ul>
       <li>#nbafinal</li>
       <li>#highlight</li>
       <li>#warriorsvsrockets</li>
     </ul>
-  </section>
+  </div>
 </template>
 
 <script>
