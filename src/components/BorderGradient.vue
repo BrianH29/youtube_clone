@@ -8,6 +8,8 @@ export default {};
 
 <style lang="scss" scoped>
 .borderGradient {
-  border: 1px solid map-get($font-color, 'lightGrey');
+  border: 1px solid map-get($font-color, 'darkGrey');
+  width: 95%;
+  margin: map-get($font-space, 'spacing');
 }
 </style>

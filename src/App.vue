@@ -6,6 +6,8 @@
     <VideoTitle></VideoTitle>
     <ClipViewsLike></ClipViewsLike>
     <BorderGradient></BorderGradient>
+    <UserInfo></UserInfo>
+    <BorderGradient></BorderGradient>
   </div>
 </template>
 
@@ -16,8 +18,10 @@ import HashTag from '@/components/HashTag';
 import VideoTitle from '@/components/VideoTitle';
 import ClipViewsLike from '@/views/ClipViewsLike';
 import BorderGradient from '@/components/BorderGradient';
+import UserInfo from '@/components/UserInfo';
 export default {
   components: {
+    UserInfo,
     BorderGradient,
     ClipViewsLike,
     VideoTitle,
