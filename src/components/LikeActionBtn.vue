@@ -48,4 +48,10 @@ export default {};
     display: none;
   }
 }
+
+@media screen and (max-width: 491px) {
+  .actionBtn__icon span {
+    display: none;
+  }
+}
 </style>

@@ -3,6 +3,9 @@
     <span class="clamp">
       Golden State Warriors vs Houston Rockets Full Game Highlights | 2021-22
       NBA Season
+      <!--      Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기 |-->
+      <!--      프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과 함께하는-->
+      <!--      프론트엔드 실전 입문편-->
     </span>
     <button @click="moreBtn">
       <i class="fas fa-caret-down"></i>
