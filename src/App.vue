@@ -4,6 +4,7 @@
     <ShowVideo></ShowVideo>
     <HashTag></HashTag>
     <VideoTitle></VideoTitle>
+    <ClipViewsLike></ClipViewsLike>
   </div>
 </template>
 
@@ -12,8 +13,9 @@ import Header from '@/components/Header';
 import ShowVideo from '@/components/ShowVideo';
 import HashTag from '@/components/HashTag';
 import VideoTitle from '@/components/VideoTitle';
+import ClipViewsLike from '@/views/ClipViewsLike';
 export default {
-  components: { VideoTitle, HashTag, ShowVideo, Header },
+  components: { ClipViewsLike, VideoTitle, HashTag, ShowVideo, Header },
 };
 </script>
 
